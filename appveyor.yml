@@ -3,4 +3,5 @@ install:
 - cmd: PATH=C:\Program Files (x86)\MSBuild\14.0\Bin;%PATH%
 before_build:
 - cmd: nuget restore
-verbosity: minimal
+build:
+- verbosity: minimal
