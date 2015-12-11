@@ -45,6 +45,9 @@
     <TargetPlatform Include="Windows, Version=8.1" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\Properties\CommonAssemblyInfo.cs">
+      <Link>Properties\CommonAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="Extensions\NativeExceptionExtensions.cs" />
     <Compile Include="NetworkExtensions.cs" />
     <Compile Include="CommsInterface.cs" />

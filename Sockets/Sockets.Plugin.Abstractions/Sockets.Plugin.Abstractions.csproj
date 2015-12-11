@@ -38,6 +38,9 @@
     <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\Properties\CommonAssemblyInfo.cs">
+      <Link>Properties\CommonAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="Exceptions\SocketException.cs" />
     <Compile Include="Extensions\TcpSocketClientExtensions.cs" />
     <Compile Include="ICommsInterface.cs" />

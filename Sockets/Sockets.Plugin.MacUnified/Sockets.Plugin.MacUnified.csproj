@@ -44,6 +44,9 @@
     <EnablePackageSigning>false</EnablePackageSigning>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\Properties\CommonAssemblyInfo.cs">
+      <Link>Properties\CommonAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="..\Sockets.Implementation.NET\CommsInterface.cs">
       <Link>CommsInterface.cs</Link>
     </Compile>

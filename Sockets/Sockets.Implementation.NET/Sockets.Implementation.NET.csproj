@@ -39,6 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\Properties\CommonAssemblyInfo.cs">
+      <Link>Properties\CommonAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="CommsInterfaceNative.cs" />
     <Compile Include="Extensions\NativeExceptionExtensions.cs" />
     <Compile Include="NetworkExtensions.cs" />
