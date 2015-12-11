@@ -4,4 +4,4 @@ install:
 before_build:
 - cmd: nuget restore
 build:
-- verbosity: minimal
+  verbosity: minimal
